@@ -222,27 +222,36 @@
 
 
 
-# ##########################################################################################
-# # So what have we learned? We learned some of the basics of numbers in Python. We also learned how to do arithmetic and use Python as a basic calculator. We then wrapped it up with learning about Variable Assignment in Python.
-# # # **Getting Input from users**
-# # #how do we get input from users?
-# # input("what is your name?")
-name=input("What is your name?")
-print("hello," + name)
-# # # basic math calculator
-# # #ask the user for 2 numbers
+# # ##########################################################################################
+# # # So what have we learned? We learned some of the basics of numbers in Python. We also learned how to do arithmetic and use Python as a basic calculator. We then wrapped it up with learning about Variable Assignment in Python.
+# # # # **Getting Input from users**
+# # # #how do we get input from users?
+# # # input("what is your name?")
+# name=input("What is your name?")
+# print("hello," + name)
+# # # # basic math calculator
+# # # #ask the user for 2 numbers
+# num1=int(input("enter a number"))
+# num2=int(input("enter another number"))
+# # # # print out a statement where you:
+# # # # add them together
+# print(num1 + num2)
+# # # #multiply
+# # # # find the max number
+# # # # find the remainder of the numbers
+# # # #round one number
+
+
 num1=int(input("enter a number"))
-num2=int(input("enter another number"))
-# # # print out a statement where you:
-# # # add them together
+num2=int(input("Enter a second number"))
+
 print(num1 + num2)
-# # #multiply
-# # # find the max number
-# # # find the remainder of the numbers
-# # #round one number
-
-
-
+print (num1 * num2)
+print (max (num1 , num2))
+print (min(num1 , num2))
+print (num1/num2)
+print(num1%num2)
+print (num1**num2)
 
 
 
