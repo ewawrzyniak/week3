@@ -115,13 +115,13 @@ print(f"{number1} , {number2}, {number3}, {number4}, {number4} ")
 # Correcting Invalid Names: Below are some invalid names. Correct them according to the rules:
 
 
-# 1st_name
-# last name
-# email@address
-# percent%
-# variable#name
-# O
-# list
+# first_name
+# last_name
+# email_address
+# percent
+# variable_name
+# Zero
+# list_of_names
 # Creating Valid Names: Create valid names for the following descriptions:
 
 
@@ -142,10 +142,10 @@ print(f"{number1} , {number2}, {number3}, {number4}, {number4} ")
 # email_address
 # percentage
 # variable_name
-# 1_variable
-# email@address
-# percentage%
-# i
+# First_variable
+# emailaddress
+# percentage
+# iowa
 
 
 
@@ -235,10 +235,6 @@ print(f"{number1} , {number2}, {number3}, {number4}, {number4} ")
 # print("{plural noun} are blue")
 # print("I love {celebrity}")
 # # On to codehs.com
-
-
-
-
 
 
 
